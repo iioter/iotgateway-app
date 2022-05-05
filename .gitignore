@@ -1,0 +1,8 @@
+node_modules/
+dist/**
+.project
+unpackage/
+.DS_Store
+wxcomponents/**/*.vue
+wxcomponents/**/*.css
+.hbuilderx/

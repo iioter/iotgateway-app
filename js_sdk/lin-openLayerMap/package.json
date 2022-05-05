@@ -1,0 +1,15 @@
+{
+    "id": "lin-openLayerMap",
+    "name": "地图组件",
+    "version": "V1.0.8",
+    "description": "基于openlayer实现的地图组件，1.支持手动标绘，2.支持监听图层点击事件回调，3.支持定位，4.支持坐标或者geoJson绘制点线面，5.支持图层放缩 6.支持自定义图层",
+    "keywords": [
+        "地图，openLayer"
+    ],
+    "dcloudext": {
+        "category": [
+            "JS SDK",
+            "通用 SDK"
+        ]
+    }
+}
