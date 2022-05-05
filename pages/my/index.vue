@@ -44,7 +44,7 @@
 		data() {
 			return {
 				userName: 'IoTGateway',
-				userITCode: '',
+				userITCode: '',				
 			}
 		},
 		methods: {
@@ -60,15 +60,15 @@
 					});
 				})
 			},
-			versionBtn(){
+			versionBtn() {
 				uni.showToast({
-					title:'版本v1.0.0',
+					title: '版本v1.0.0',
 				})
 				// uni.navigateTo({
 				// 	url: '/pages/version/version'
 				// });
 			},
-			changePasswordBtn(){
+			changePasswordBtn() {
 				/* uni.navigateTo({
 					url: '/pages/changePassword/changePassword'
 				}); */
@@ -77,8 +77,7 @@
 
 			}
 		},
-		onShow() {
-		}
+		onShow() {}
 	}
 </script>
 
@@ -92,19 +91,19 @@
 		align-items: center;
 		background: #d0d0d0;
 	}
-	
+
 	.u-order-title {
 		color: #333333;
 		font-weight: bold;
 		font-size: 32rpx;
 	}
-	
+
 	.u-order-desc {
 		color: rgb(150, 150, 150);
 		font-size: 28rpx;
 		margin-bottom: 6rpx;
 	}
-	
+
 	.u-order-time {
 		color: rgb(200, 200, 200);
 		font-size: 26rpx;

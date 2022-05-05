@@ -53,7 +53,9 @@
 		},
 		methods: {
 			onClick(id) {
-				console.log(id)
+				uni.showToast({
+					title:'设备详情ToDo',
+				})
 			},
 			// fullText() {
 			//  console.log('方法')
